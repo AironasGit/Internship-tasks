@@ -49,44 +49,44 @@ class Program
         }
         return numbers;
     }
-    private static string ReverseString(string input) // 1
+    private static string ReverseString(string text) // 1
     {
-        string reversedInput = "";
-        for (int i = input.Length - 1; i >= 0; i--)
+        string reversedText = "";
+        for (int i = text.Length - 1; i >= 0; i--)
         {
-            reversedInput += input[i];
+            reversedText += text[i];
         }
-        return reversedInput;
+        return reversedText;
     }
-    private static (int, int) FindMinMax(int[] input) // 2
+    private static (int, int) FindMinMax(int[] numbers) // 2
     {
         int min, max;
-        min = max = input[0];
-        for (int i = 0; i < input.Count(); i++)
+        min = max = numbers[0];
+        for (int i = 0; i < numbers.Count(); i++)
         {
-            if (min > input[i])
+            if (min > numbers[i])
             {
-                min = input[i];
+                min = numbers[i];
             }
-            if (max < input[i])
+            if (max < numbers[i])
             {
-                max = input[i];
+                max = numbers[i];
             }
         }
         return (min, max);
     }
-    private static Dictionary<int, int> FindDuplicateNumbers(int[] input) // 3
+    private static Dictionary<int, int> FindDuplicateNumbers(int[] numbers) // 3
     {
         Dictionary<int, int> duplicateNumbers = new Dictionary<int, int>(); // key = number | value = times the number has appeared in the array
-        for (int i = 0; i < input.Count(); i++)
+        for (int i = 0; i < numbers.Count(); i++)
         {
-            if (duplicateNumbers.ContainsKey(input[i]))
+            if (duplicateNumbers.ContainsKey(numbers[i]))
             {
-                duplicateNumbers[input[i]] += 1; 
+                duplicateNumbers[numbers[i]] += 1; 
             }
             else
             {
-                duplicateNumbers.Add(input[i], 1);
+                duplicateNumbers.Add(numbers[i], 1);
             }
         }
         foreach (var number in duplicateNumbers) // Removing numbers that only appear once
