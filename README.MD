@@ -1,3 +1,2 @@
-# AndroidStudioTesting
-Example of the program.
+# Example of the program.
 ![TestImage!](Image.png)
