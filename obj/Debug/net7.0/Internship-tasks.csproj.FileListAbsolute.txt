@@ -1,0 +1,15 @@
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\bin\Debug\net7.0\Internship-tasks.exe
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\bin\Debug\net7.0\Internship-tasks.deps.json
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\bin\Debug\net7.0\Internship-tasks.runtimeconfig.json
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\bin\Debug\net7.0\Internship-tasks.dll
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\bin\Debug\net7.0\Internship-tasks.pdb
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.csproj.AssemblyReference.cache
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.AssemblyInfoInputs.cache
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.AssemblyInfo.cs
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.csproj.CoreCompileInputs.cache
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.dll
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\refint\Internship-tasks.dll
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.pdb
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\Internship-tasks.genruntimeconfig.cache
+C:\Users\Aironas\Documents\GitHub\Internship-tasks\obj\Debug\net7.0\ref\Internship-tasks.dll
