@@ -9,11 +9,16 @@ class Program
         string text1 = "Programuotojas";
         
         Console.WriteLine();
-        Console.WriteLine($"1. {text1} reversed is {ReverseString(text1)}");
+        Console.WriteLine($"1. '{text1}' reversed is '{ReverseString(text1)}'");
         Console.WriteLine();
         Console.Write($"2. Numbers: ");
         for (int i = 0; i < numbers.Length; i++)
         {
+            if(i == numbers.Length - 1)
+            {
+                Console.Write($"{numbers[i]}.");
+                break;
+            }
             Console.Write($"{numbers[i]}, ");
         }
         
@@ -113,7 +118,7 @@ class Program
                 if (text[i].Equals(vowels[j]))
                 {
                     vowelAndConsonantCount["Vowels"] += 1;
-                    continue;
+                    break;
                 }
             }
             for (int n = 0; n < consonants.Count(); n++)
@@ -121,7 +126,7 @@ class Program
                 if (text[i].Equals(consonants[n]))
                 {
                     vowelAndConsonantCount["Consonants"] += 1;
-                    continue;
+                    break;
                 }
             }
         }
